@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My PDF</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/website/images/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/website/images/icons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/website/images/icons/favicon-96x96.png">
+    <link rel="stylesheet" type="text/css" href="https://pdfdeck.com/static/frontend/css/main.24240c21.css" />
+    <style>
+      .rpv-default-layout__container{
+        border: none;
+      }
+      
+      .powered-by-pdf-deck{
+        position: fixed;
+        z-index: 2;
+        right: 1.5rem;
+        bottom: 0;
+        display: inline-block;
+        padding: .5rem 1rem;
+        background: white;
+        color: #333;
+        font-size: 12px;
+        font-weight: 600;
+        color: #555;
+        border-top: 1px solid #aaa;
+        border-left: 1px solid #aaa;
+        border-right: 1px solid #aaa;
+        border-radius: 8px 8px 0 0;
+        text-decoration: none;
+      }
+      .powered-by-pdf-deck:hover{
+        background: #f0f0f0;
+      }
+
+      .rpv-toolbar{
+        align-items: center;
+        background-color: #eee;
+        background-color: var(--rpv-default-layout__toolbar-background-color);
+        border-bottom: 1px solid #0000001a;
+        border-bottom: 1px solid var(--rpv-default-layout__toolbar-border-bottom-color);
+        display: flex;
+        height: 2.5rem;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+      }
+
+      .react-pdf__Page{
+        background-color: transparent !important;
+      }
+
+      @media (max-width: 700px) {
+        .powered-by-pdf-deck-longer {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-document='/_/pdf/edd6e626-6874-4cb2-a9f0-2bef174391bf/' data-type="pdf" data-dl="false" data-branding="false" data-brandinglink="https://pdfdeck.com?ref=efaff9e4"></div>
+    
+	<script type="text/javascript" src="https://pdflink.to/static/frontend/js/main.d504ddb9.js"></script>
+  </body>
+</html>
