@@ -6,7 +6,7 @@ from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 import requests
 
 
-GROQ_API_KEY = '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'
+GROQ_API_KEY = 'PONGO ESTO ASI NO LLORA GROQ'
 
 # Configuramos el LLM
 llm = Groq(model="llama3-8b-8192", api_key=GROQ_API_KEY)
